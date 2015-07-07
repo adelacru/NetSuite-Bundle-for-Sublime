@@ -11,7 +11,7 @@ Installation
 Instructions
 -------------
 
-- API Completion will with JavaScript files
+- Code Completion will work with JavaScript files
 - "Ctrl + Alt + n" opens the NetSuite menu
 
 Features
