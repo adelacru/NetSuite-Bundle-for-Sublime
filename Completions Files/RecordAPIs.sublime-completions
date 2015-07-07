@@ -1,0 +1,68 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiAttachRecord",
+		"contents": "nlapiAttachRecord(${1:type}, ${2:id}, ${3:type2}, ${4:id2}, ${5:attributes})$0"
+	}, {
+		"trigger": "nlapiCopyRecord",
+		"contents": "nlapiCopyRecord(${1:type}, ${2:id}, ${3:initializeValues})$0"
+	},{
+		//Dynamic Mode
+		"trigger": "nlapiCopyRecord\tDynamic Mode",
+		"contents": "nlapiCopyRecord(${1:type}, ${2:id}, {recordmode: 'dynamic'})$0"
+	}, {
+		"trigger": "nlapiCreateCSVImport",
+		"contents": "nlapiCreateCSVImport()$0"
+	}, {
+		"trigger": "nlapiCreateEmailMerger",
+		"contents": "nlapiCreateEmailMerger(${1:templateId})$0"
+	}, {
+		"trigger": "nlapiCreateRecord",
+		"contents": "nlapiCreateRecord(${1:type}, ${2:initializeValues})$0"
+	},{
+		//Dynamic Mode
+		"trigger": "nlapiCreateRecord\tDynamic Mode",
+		"contents": "nlapiCreateRecord(${1:type}, {recordmode: 'dynamic'})$0"
+	}, {
+		"trigger": "nlapiDeleteRecord",
+		"contents": "nlapiDeleteRecord(${1:type}, ${2:id})$0"
+	}, {
+		"trigger": "nlapiDetachRecord",
+		"contents": "nlapiDetachRecord(${1:type}, ${2:id}, ${3:type2}, ${4:id2}, ${5:attributes})$0"
+	}, {
+		"trigger": "nlapiGetNewRecord",
+		"contents": "nlapiGetNewRecord()$0"
+	}, {
+		"trigger": "nlapiGetOldRecord",
+		"contents": "nlapiGetOldRecord()$0"
+	}, {
+		"trigger": "nlapiGetRecordId",
+		"contents": "nlapiGetRecordId()$0"
+	}, {
+		"trigger": "nlapiGetRecordType",
+		"contents": "nlapiGetRecordType()$0"
+	}, {
+		"trigger": "nlapiLoadRecord",
+		"contents": "nlapiLoadRecord(${1:type}, ${2:id}, ${3:initializeValues})$0"
+	}, {
+		//Dynamic Mode
+		"trigger": "nlapiLoadRecord\tDynamic Mode",
+		"contents": "nlapiLoadRecord(${1:type}, ${2:id}, {recordmode: 'dynamic'})$0"
+	},{
+		"trigger": "nlapiPrintRecord",
+		"contents": "nlapiPrintRecord(${1:TYPE}, ${2:id}, ${3:MODE}, ${4:properties})$0"
+	}, {
+		"trigger": "nlapiSubmitCSVImport",
+		"contents": "nlapiSubmitCSVImport(${1:nlobjCSVImport})$0"
+	}, {
+		"trigger": "nlapiSubmitRecord",
+		"contents": "nlapiSubmitRecord(${1:nlobjRecord}, ${2:doSourcing}, ${3:ignoreMandatoryFields})$0"
+	}, {
+		"trigger": "nlapiTransformRecord",
+		"contents": "nlapiTransformRecord(${1:type}, ${2:id}, ${3:transformType}, ${4:transformValues})$0"
+	},{
+		"trigger": "nlapiVoidTransaction",
+		"contents": "nlapiVoidTransaction(${1:type}, ${2:id})$0"
+	}]
+}

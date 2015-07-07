@@ -1,0 +1,11 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiLoadConfiguration",
+		"contents": "nlapiLoadConfiguration(${1:configurationType})$0"
+	},{
+		"trigger": "nlapiSubmitConfiguration",
+		"contents": "nlapiSubmitConfiguration(${1:nlobjConfiguration})$0"
+	}]
+}

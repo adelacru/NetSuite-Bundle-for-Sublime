@@ -1,0 +1,11 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiCreateReportDefinition",
+		"contents": "nlapiCreateReportDefinition()$0"
+	},{
+		"trigger": "nlapiCreateReportForm",
+		"contents": "nlapiCreateReportForm(${1:title})$0"
+	}]
+}

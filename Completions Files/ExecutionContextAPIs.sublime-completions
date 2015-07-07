@@ -1,0 +1,26 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiGetContext",
+		"contents": "nlapiGetContext()$0"
+	},{
+		"trigger": "nlapiGetDepartment",
+		"contents": "nlapiGetDepartment()$0"
+	},{
+		"trigger": "nlapiGetLocation",
+		"contents": "nlapiGetLocation()$0"
+	},{
+		"trigger": "nlapiGetRole",
+		"contents": "nlapiGetRole()$0"
+	},{
+		"trigger": "nlapiGetSubsidiary",
+		"contents": "nlapiGetSubsidiary()$0"
+	},{
+		"trigger": "nlapiLogExecution",
+		"contents": "nlapiLogExecution(${1:logType}, ${2:title}, ${3:details})$0"
+	},{
+		"trigger": "nlapiGetUser",
+		"contents": "nlapiGetUser()$0"
+	}]
+}

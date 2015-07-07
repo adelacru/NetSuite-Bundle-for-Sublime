@@ -1,0 +1,11 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiExchangeRate",
+		"contents": "nlapiExchangeRate(${1:sourceCurrency}, ${2:targetCurrency}, ${3:effectiveDate})$0"
+	},{
+		"trigger": "nlapiFormatCurrency",
+		"contents": "nlapiFormatCurrency(${1:currencyString})$0"
+	}]
+}

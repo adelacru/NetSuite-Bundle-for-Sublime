@@ -1,0 +1,17 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiCreateAssistant",
+		"contents": "nlapiCreateAssistant(${1:title}, ${2:hideHeader})$0"
+	},{
+		"trigger": "nlapiCreateForm",
+		"contents": "nlapiCreateForm(${1:title}, ${2:hideNavbar})$0"
+	},{
+		"trigger": "nlapiCreateList",
+		"contents": "nlapiCreateList(${1:title}, ${2:hideNavbar})$0"
+	},{
+		"trigger": "nlapiCreateTemplateRenderer",
+		"contents": "nlapiCreateTemplateRenderer()$0"
+	}]
+}

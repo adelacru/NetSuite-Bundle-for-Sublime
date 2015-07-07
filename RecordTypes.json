@@ -1,0 +1,662 @@
+[{
+		"name": "Back",
+		"internalid": "",
+		"type": "none"
+	}, {
+		"name": "Assembly Build",
+		"internalid": "assemblybuild",
+		"type": "transaction"
+	}, {
+		"name": "Assembly Unbuild",
+		"internalid": "assemblyunbuild",
+		"type": "transaction"
+	}, {
+		"name": "Bin Transfer",
+		"internalid": "bintransfer",
+		"type": "transaction"
+	}, {
+		"name": "Bin Putaway Worksheet",
+		"internalid": "binworksheet",
+		"type": "transaction"
+	}, {
+		"name": "Blanket Purchase Order",
+		"internalid": "blanketpurchaseorder",
+		"type": "transaction"
+	}, {
+		"name": "Cash Refund",
+		"internalid": "cashrefund",
+		"type": "transaction"
+	}, {
+		"name": "Cash Sale",
+		"internalid": "cashsale",
+		"type": "transaction"
+	}, {
+		"name": "Charge",
+		"internalid": "charge",
+		"type": "transaction"
+	}, {
+		"name": "Check",
+		"internalid": "check",
+		"type": "transaction"
+	}, {
+		"name": "Credit Memo",
+		"internalid": "creditmemo",
+		"type": "transaction"
+	}, {
+		"name": "Customer Deposit",
+		"internalid": "customerdeposit",
+		"type": "transaction"
+	}, {
+		"name": "Customer Payment",
+		"internalid": "customerpayment",
+		"type": "transaction"
+	}, {
+		"name": "Customer Refund",
+		"internalid": "customerrefund",
+		"type": "transaction"
+	}, {
+		"name": "Deposit",
+		"internalid": "deposit",
+		"type": "transaction"
+	}, {
+		"name": "Deposit Application",
+		"internalid": "depositapplication",
+		"type": "transaction"
+	}, {
+		"name": "Estimate / Quote",
+		"internalid": "estimate",
+		"type": "Transaction"
+	}, {
+		"name": "Expense Report",
+		"internalid": "expensereport",
+		"type": "Transaction"
+	}, {
+		"name": "Intercompany Journal Entry",
+		"internalid": "intercompanyjournalentry",
+		"type": "Transaction"
+	}, {
+		"name": "Inventory Adjustment",
+		"internalid": "inventoryadjustment",
+		"type": "Transaction"
+	}, {
+		"name": "Inventory Cost Revaluation",
+		"internalid": "inventorycostrevaluation",
+		"type": "Transaction"
+	}, {
+		"name": "Inventory Count",
+		"internalid": "inventorycount",
+		"type": "Transaction"
+	}, {
+		"name": "Inventory Detail",
+		"internalid": "inventorydetail",
+		"type": "Transaction"
+	}, {
+		"name": "Inventory Transfer",
+		"internalid": "inventorytransfer",
+		"type": "Transaction"
+	}, {
+		"name": "Invoice",
+		"internalid": "invoice",
+		"type": "Transaction"
+	}, {
+		"name": "Item Demand Plan",
+		"internalid": "itemdemandplan",
+		"type": "Transaction"
+	}, {
+		"name": "Item Fulfillment",
+		"internalid": "itemfulfillment",
+		"type": "Transaction"
+	}, {
+		"name": "Item Receipt",
+		"internalid": "itemreceipt",
+		"type": "Transaction"
+	}, {
+		"name": "Item Supply Plan",
+		"internalid": "itemsupplyplan",
+		"type": "Transaction"
+	}, {
+		"name": "Journal Entry",
+		"internalid": "journalentry",
+		"type": "Transaction"
+	}, {
+		"name": "Landed Cost",
+		"internalid": "landedcost",
+		"type": "Transaction"
+	}, {
+		"name": "Manufacturing Operation Task",
+		"internalid": "manufacturingoperationtask",
+		"type": "Transaction"
+	}, {
+		"name": "Manufacturing Planned Time",
+		"internalid": "mfgplannedtime",
+		"type": "Transaction"
+	}, {
+		"name": "Multi-Book Accounting Transaction",
+		"internalid": "accountingtransaction",
+		"type": "Transaction"
+	}, {
+		"name": "Opportunity",
+		"internalid": "opportunity",
+		"type": "Transaction"
+	}, {
+		"name": "Paycheck Journal",
+		"internalid": "paycheckjournal",
+		"type": "Transaction"
+	}, {
+		"name": "Purchase Contract",
+		"internalid": "purchasecontract",
+		"type": "Transaction"
+	}, {
+		"name": "Purchase Order",
+		"internalid": "purchaseorder",
+		"type": "Transaction"
+	}, {
+		"name": "Requisition",
+		"internalid": "purchaserequisition",
+		"type": "Transaction"
+	}, {
+		"name": "Return Authorization",
+		"internalid": "returnauthorization",
+		"type": "Transaction"
+	}, {
+		"name": "Revenue Commitment",
+		"internalid": "revenuecommitment",
+		"type": "Transaction"
+	}, {
+		"name": "Revenue Commitment Reversal",
+		"internalid": "revenuecommitmentreversal",
+		"type": "Transaction"
+	}, {
+		"name": "Sales Order",
+		"internalid": "salesorder",
+		"type": "Transaction"
+	}, {
+		"name": "Statistical Journal Entry",
+		"internalid": "statisticaljournalentry",
+		"type": "Transaction"
+	}, {
+		"name": "Time",
+		"internalid": "timebill",
+		"type": "Transaction"
+	}, {
+		"name": "Time Entry for Timesheet",
+		"internalid": "timeentry",
+		"type": "Transaction"
+	}, {
+		"name": "Timesheet",
+		"internalid": "timesheet",
+		"type": "Transaction"
+	}, {
+		"name": "Transaction [search only]",
+		"internalid": "transaction",
+		"type": "Transaction"
+	}, {
+		"name": "Transfer Order",
+		"internalid": "transferorder",
+		"type": "Transaction"
+	}, {
+		"name": "Vendor Bill",
+		"internalid": "vendorbill",
+		"type": "Transaction"
+	}, {
+		"name": "Vendor Credit",
+		"internalid": "vendorcredit",
+		"type": "Transaction"
+	}, {
+		"name": "Vendor Payment",
+		"internalid": "vendorpayment",
+		"type": "Transaction"
+	}, {
+		"name": "Vendor Return Authorization",
+		"internalid": "vendorreturnauthorization",
+		"type": "Transaction"
+	}, {
+		"name": "Work Order",
+		"internalid": "workorder",
+		"type": "Transaction"
+	}, {
+		"name": "Work Order Close",
+		"internalid": "workorderclose",
+		"type": "Transaction"
+	}, {
+		"name": "Work Order Completion",
+		"internalid": "workordercompletion",
+		"type": "Transaction"
+	}, {
+		"name": "Work Order Issue",
+		"internalid": "workorderissue",
+		"type": "Transaction"
+	},
+
+	{
+		"name": "Competitor",
+		"internalid": "competitor",
+		"type": "Entity"
+	}, {
+		"name": "Contact",
+		"internalid": "contact",
+		"type": "Entity"
+	}, {
+		"name": "Customer",
+		"internalid": "customer",
+		"type": "Entity"
+	}, {
+		"name": "Employee",
+		"internalid": "employee",
+		"type": "Entity"
+	}, {
+		"name": "Entity",
+		"internalid": "entity",
+		"type": "Entity"
+	}, {
+		"name": "Generic Resource",
+		"internalid": "genericresource",
+		"type": "Entity"
+	}, {
+		"name": "Lead",
+		"internalid": "lead",
+		"type": "Entity"
+	}, {
+		"name": "Other Name",
+		"internalid": "othername",
+		"type": "Entity"
+	}, {
+		"name": "Partner",
+		"internalid": "partner",
+		"type": "Entity"
+	}, {
+		"name": "Project / Job",
+		"internalid": "job",
+		"type": "Entity"
+	}, {
+		"name": "Project Template",
+		"internalid": "projecttemplate",
+		"type": "Entity"
+	}, {
+		"name": "Prospect",
+		"internalid": "prospect",
+		"type": "Entity"
+	}, {
+		"name": "Vendor",
+		"internalid": "vendor",
+		"type": "Entity"
+	},
+
+	{
+		"name": "Activity",
+		"internalid": "activity",
+		"type": "Activity"
+	}, {
+		"name": "Event",
+		"internalid": "calendarevent",
+		"type": "Activity"
+	}, {
+		"name": "Phone Call",
+		"internalid": "phonecall",
+		"type": "Activity"
+	}, {
+		"name": "Project Task",
+		"internalid": "projecttask",
+		"type": "Activity"
+	}, {
+		"name": "Resource Allocation",
+		"internalid": "resourceallocation",
+		"type": "Activity"
+	}, {
+		"name": "Task",
+		"internalid": "task",
+		"type": "Activity"
+	}, {
+		"name": "Work Calendar",
+		"internalid": "workcalendar",
+		"type": "Activity"
+	},
+
+	{
+		"name": "Build / Assembly Item",
+		"internalid": "assemblyitem",
+		"type": "Item"
+	},{
+		"name": "Description Item",
+		"internalid": "descriptionitem",
+		"type": "Item"
+	},{
+		"name": "Discount Item",
+		"internalid": "discountitem",
+		"type": "Item"
+	},{
+		"name": "Download Item",
+		"internalid": "downloaditem",
+		"type": "Item"
+	},{
+		"name": "Gift Certificate Item",
+		"internalid": "giftcertificateitem",
+		"type": "Item"
+	},{
+		"name": "Inventory Item",
+		"internalid": "inventoryitem",
+		"type": "Item"
+	},{
+		"name": "Item [search only]",
+		"internalid": "item",
+		"type": "Item"
+	},{
+		"name": "Item Group",
+		"internalid": "itemgroup",
+		"type": "Item"
+	},{
+		"name": "Kit Item",
+		"internalid": "kititem",
+		"type": "Item"
+	},{
+		"name": "Lot Numbered Assembly Item",
+		"internalid": "lotnumberedassemblyitem",
+		"type": "Item"
+	},{
+		"name": "Lot Numbered Inventory Item",
+		"internalid": "lotnumberedinventoryitem",
+		"type": "Item"
+	},{
+		"name": "Markup Item",
+		"internalid": "markupitem",
+		"type": "Item"
+	},{
+		"name": "Non-Inventory Part Item",
+		"internalid": "noninventoryitem",
+		"type": "Item"
+	},{
+		"name": "Other Charge Item",
+		"internalid": "otherchargeitem",
+		"type": "Item"
+	},{
+		"name": "Payment Item",
+		"internalid": "paymentitem",
+		"type": "Item"
+	},{
+		"name": "Reallocate Items",
+		"internalid": "reallocateitem",
+		"type": "Item"
+	},{
+		"name": "Serialized Assembly Item",
+		"internalid": "serializedassemblyitem",
+		"type": "Item"
+	},{
+		"name": "Serialized Inventory Item",
+		"internalid": "serializedinventoryitem",
+		"type": "Item"
+	},{
+		"name": "Service Item",
+		"internalid": "serviceitem",
+		"type": "Item"
+	},{
+		"name": "Shipping Item",
+		"internalid": "shipitem",
+		"type": "Item"
+	},{
+		"name": "Subtotal Item",
+		"internalid": "subtotalitem",
+		"type": "Item"
+	},
+
+	{
+		"name": "Message",
+		"internalid": "message",
+		"type": "Communication"
+	},{
+		"name": "Note",
+		"internalid": "note",
+		"type": "Communication"
+	},
+
+	{
+		"name": "Case",
+		"internalid": "supportcase",
+		"type": "Support"
+	},{
+		"name": "Issue",
+		"internalid": "issue",
+		"type": "Support"
+	},{
+		"name": "Solution",
+		"internalid": "solution",
+		"type": "Support"
+	},{
+		"name": "Task",
+		"internalid": "task",
+		"type": "Support"
+	},{
+		"name": "Topic",
+		"internalid": "topic",
+		"type": "Support"
+	},
+
+	{
+		"name": "Folder",
+		"internalid": "folder",
+		"type": "File Cabinet"
+	},
+
+	{
+		"name": "Account",
+		"internalid": "account",
+		"type": "List"
+	},{
+		"name": "Accounting Book",
+		"internalid": "accountingbook",
+		"type": "List"
+	},{
+		"name": "Amortization Schedule",
+		"internalid": "amortizationschedule",
+		"type": "List"
+	},{
+		"name": "Amortization Template",
+		"internalid": "amortizationtemplate",
+		"type": "List"
+	},{
+		"name": "Billing Class",
+		"internalid": "billingclass",
+		"type": "List"
+	},{
+		"name": "Billing Schedule",
+		"internalid": "billingschedule",
+		"type": "List"
+	},{
+		"name": "Bin",
+		"internalid": "bin",
+		"type": "List"
+	},{
+		"name": "Class",
+		"internalid": "classification",
+		"type": "List"
+	},{
+		"name": "Currency",
+		"internalid": "currency",
+		"type": "List"
+	},{
+		"name": "Customer Category",
+		"internalid": "customercategory",
+		"type": "List"
+	},{
+		"name": "Department",
+		"internalid": "department",
+		"type": "List"
+	},{
+		"name": "Expense Category",
+		"internalid": "expensecategory",
+		"type": "List"
+	},{
+		"name": "Gift Certificate",
+		"internalid": "giftcertificate",
+		"type": "List"
+	},{
+		"name": "Global Account Mapping",
+		"internalid": "globalaccountmapping",
+		"type": "List"
+	},{
+		"name": "Group",
+		"internalid": "entitygroup",
+		"type": "List"
+	},{
+		"name": "Inventory Number",
+		"internalid": "inventorynumber",
+		"type": "List"
+	},{
+		"name": "Item Account Mapping",
+		"internalid": "itemaccountmapping",
+		"type": "List"
+	},{
+		"name": "Item Revision",
+		"internalid": "itemrevision",
+		"type": "List"
+	},{
+		"name": "Location",
+		"internalid": "location",
+		"type": "List"
+	},{
+		"name": "Manufacturing Cost Template",
+		"internalid": "manufacturingcosttemplate",
+		"type": "List"
+	},{
+		"name": "Manufacturing Routing",
+		"internalid": "manufacturingrouting",
+		"type": "List"
+	},{
+		"name": "Nexus",
+		"internalid": "nexus",
+		"type": "List"
+	},{
+		"name": "Payroll Item",
+		"internalid": "payrollitem",
+		"type": "List"
+	},{
+		"name": "Price Level",
+		"internalid": "pricelevel",
+		"type": "List"
+	},{
+		"name": "Project Expense Type",
+		"internalid": "projectexpensetype",
+		"type": "List"
+	},{
+		"name": "Revenue Recognition Schedule",
+		"internalid": "revrecschedule",
+		"type": "List"
+	},{
+		"name": "Revenue Recognition Template",
+		"internalid": "revrectemplate",
+		"type": "List"
+	},{
+		"name": "Sales Tax Item",
+		"internalid": "salestaxitem",
+		"type": "List"
+	},{
+		"name": "Subsidiary",
+		"internalid": "subsidiary",
+		"type": "List"
+	},{
+		"name": "Tax Control Account",
+		"internalid": "taxacct",
+		"type": "List"
+	},{
+		"name": "Tax Group",
+		"internalid": "taxgroup",
+		"type": "List"
+	},{
+		"name": "Tax Period",
+		"internalid": "taxperiod",
+		"type": "List"
+	},{
+		"name": "Tax Type",
+		"internalid": "taxtype",
+		"type": "List"
+	},{
+		"name": "Term",
+		"internalid": "term",
+		"type": "List"
+	},{
+		"name": "Unit of Measure",
+		"internalid": "unitstype",
+		"type": "List"
+	},{
+		"name": "Vendor Category",
+		"internalid": "vendorcategory",
+		"type": "List"
+	},
+
+	{
+		"name": "Scheduled Script Instance [Search Only]",
+		"internalid": "scheduledscriptinstance",
+		"type": "Customization"
+	},{
+		"name": "Script [Search Only]",
+		"internalid": "script",
+		"type": "Customization"
+	},{
+		"name": "Bundle Installation Script",
+		"internalid": "bundleinstallationscript",
+		"type": "Customization"
+	},{
+		"name": "Client Script",
+		"internalid": "clientscript",
+		"type": "Customization"
+	},{
+		"name": "Mass Update Script",
+		"internalid": "massupdatescript",
+		"type": "Customization"
+	},{
+		"name": "Portlet Script",
+		"internalid": "portlet",
+		"type": "Customization"
+	},{
+		"name": "RESTlet Script",
+		"internalid": "restlet",
+		"type": "Customization"
+	},{
+		"name": "Scheduled Script",
+		"internalid": "scheduledscript",
+		"type": "Customization"
+	},{
+		"name": "SuiteLet Script",
+		"internalid": "suitelet",
+		"type": "Customization"
+	},{
+		"name": "User Event Script",
+		"internalid": "usereventscript",
+		"type": "Customization"
+	},{
+		"name": "Workflow Action Script",
+		"internalid": "workflowactionscript",
+		"type": "Customization"
+	},{
+		"name": "Script Deployment",
+		"internalid": "scriptdeployment",
+		"type": "Customization"
+	},
+
+	{
+		"name": "Campaign Template",
+		"internalid": "campaigntemplate",
+		"type": "Marketing"
+	},{
+		"name": "Coupon Code",
+		"internalid": "couponcode",
+		"type": "Marketing"
+	},{
+		"name": "Email Template",
+		"internalid": "emailtemplate",
+		"type": "Marketing"
+	},{
+		"name": "Promotion",
+		"internalid": "promotioncode",
+		"type": "Marketing"
+	},{
+		"name": "Campaign",
+		"internalid": "campaign",
+		"type": "Marketing"
+	},
+
+	{
+		"name": "Web Site Setup",
+		"internalid": "website",
+		"type": "Website"
+	}
+]

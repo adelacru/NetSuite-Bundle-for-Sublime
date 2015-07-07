@@ -1,0 +1,11 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiRefreshPortlet",
+		"contents": "nlapiRefreshPortlet()$0"
+	}, {
+		"trigger": "nlapiResizePortlet",
+		"contents": "nlapiResizePortlet()$0"
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiScheduleScript",
+		"contents": "nlapiScheduleScript(${1:scriptId}, ${2:deployId}, ${3:paramsObj})$0"
+	},{
+		"trigger": "nlapiSetRecoveryPoint",
+		"contents": "nlapiSetRecoveryPoint()$0"
+	},{
+		"trigger": "nlapiYieldScript",
+		"contents": "nlapiYieldScript()$0"
+	}]
+}

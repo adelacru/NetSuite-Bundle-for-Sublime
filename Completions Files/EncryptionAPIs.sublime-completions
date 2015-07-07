@@ -1,0 +1,8 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiEncrypt",
+		"contents": "nlapiEncrypt(${1:text}, ${2:algorithm}, ${3:key})$0"
+	}]
+}

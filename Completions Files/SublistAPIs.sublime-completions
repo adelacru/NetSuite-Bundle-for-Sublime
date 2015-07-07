@@ -1,0 +1,107 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiCancelLineItem",
+		"contents": "nlapiCancelLineItem(${1:sublist})$0"
+	},{
+		"trigger": "nlapiCommitLineItem",
+		"contents": "nlapiCommitLineItem(${1:sublist})$0"
+	},{
+		"trigger": "nlapiDisableLineItemField",
+		"contents": "nlapiDisableLineItemField(${1:sublist}, ${2:fldnam}, ${3:val})$0"
+	},{
+		"trigger": "nlapiFindLineItemMatrixValue",
+		"contents": "nlapiFindLineItemMatrixValue(${1:sublist}, ${2:fldnam}, ${3:val}, ${4:column})$0"
+	},{
+		"trigger": "nlapiFindLineItemValue",
+		"contents": "nlapiFindLineItemValue(${1:sublist}, ${2:fldnam}, ${3:val})$0"
+	},{
+		"trigger": "nlapiGetCurrentLineItemIndex",
+		"contents": "nlapiGetCurrentLineItemIndex(${1:sublist})$0"
+	},{
+		"trigger": "nlapiGetCurrentLineItemMatrixValue",
+		"contents": "nlapiGetCurrentLineItemMatrixValue(${1:sublist}, ${2:fldnam}, ${3:column})$0"
+	},{
+		"trigger": "nlapiGetCurrentLineItemText",
+		"contents": "nlapiGetCurrentLineItemText(${1:sublist}, ${2:fldnam})$0"
+	},{
+		"trigger": "nlapiGetCurrentLineItemValue",
+		"contents": "nlapiGetCurrentLineItemValue(${1:sublist}, ${2:fldnam})$0"
+	},{
+		"trigger": "nlapiGetCurrentLineItemValues",
+		"contents": "nlapiGetCurrentLineItemValues(${1:sublist}, ${2:fldnam})$0"
+	},{
+		"trigger": "nlapiGetLineItemCount",
+		"contents": "nlapiGetLineItemCount(${1:sublist})$0"
+	},{
+		"trigger": "nlapiGetLineItemField",
+		"contents": "nlapiGetLineItemField(${1:sublist}, ${2:fldnam}, ${3:linenum})$0"
+	},{
+		"trigger": "nlapiGetLineItemMatrixField",
+		"contents": "nlapiGetLineItemMatrixField(${1:sublist}, ${2:fldnam}, ${3:linenum}, ${4:column})$0"
+	},{
+		"trigger": "nlapiGetLineItemMatrixValue",
+		"contents": "nlapiGetLineItemMatrixValue(${1:sublist}, ${2:fldnam}, ${3:linenum}, ${4:column})$0"
+	},{
+		"trigger": "nlapiGetLineItemText",
+		"contents": "nlapiGetLineItemText(${1:sublist}, ${2:fldnam}, ${3:linenum})$0"
+	},{
+		"trigger": "nlapiGetLineItemValue",
+		"contents": "nlapiGetLineItemValue(${1:sublist}, ${2:fldnam}, ${3:linenum})$0"
+	},{
+		"trigger": "nlapiGetLineItemValues",
+		"contents": "nlapiGetLineItemValues(${1:sublist}, ${2:fldnam}, ${3:linenum})$0"
+	},{
+		"trigger": "nlapiGetMatrixCount",
+		"contents": "nlapiGetMatrixCount(${1:sublist}, ${2:fldnam})$0"
+	},{
+		"trigger": "nlapiGetMatrixField",
+		"contents": "nlapiGetMatrixField(${1:sublist}, ${2:fldnam}, ${3:column})$0"
+	},{
+		"trigger": "nlapiGetMatrixValue",
+		"contents": "nlapiGetMatrixValue(${1:sublist}, ${2:fldnam}, ${3:column})$0"
+	},{
+		"trigger": "nlapiInsertLineItem",
+		"contents": "nlapiInsertLineItem(${1:sublist}, ${2:line})$0"
+	},{
+		"trigger": "nlapiInsertLineItemOption",
+		"contents": "nlapiInsertLineItemOption(${1:sublist}, ${2:fldnam}, ${3:value}, ${4:text}, ${5:selected})$0"
+	},{
+		"trigger": "nlapiIsLineItemChanged",
+		"contents": "nlapiIsLineItemChanged(${1:sublist})$0"
+	},{
+		"trigger": "nlapiRefreshLineItems",
+		"contents": "nlapiRefreshLineItems(${1:sublist})$0"
+	},{
+		"trigger": "nlapiRemoveLineItem",
+		"contents": "nlapiRemoveLineItem(${1:sublist}, ${2:line})$0"
+	},{
+		"trigger": "nlapiRemoveLineItemOption",
+		"contents": "nlapiRemoveLineItemOption(${1:sublist}, ${2:fldnam}, ${3:value})$0"
+	},{
+		"trigger": "nlapiSelectLineItem",
+		"contents": "nlapiSelectLineItem(${1:sublist}, ${2:linenum})$0"
+	},{
+		"trigger": "nlapiSelectNewLineItem",
+		"contents": "nlapiSelectNewLineItem(${1:sublist})$0"
+	},{
+		"trigger": "nlapiSetCurrentLineItemMatrixValue",
+		"contents": "nlapiSetCurrentLineItemMatrixValue(${1:sublist}, ${2:fldnam}, ${3:column}, ${4:value}, ${5:firefieldchanged}, ${6:synchronous})$0"
+	},{
+		"trigger": "nlapiSetCurrentLineItemText",
+		"contents": "nlapiSetCurrentLineItemText(${1:sublist}, ${2:fldnam}, ${3:text}, ${4:firefieldchanged}, ${5:synchronous})$0"
+	},{
+		"trigger": "nlapiSetCurrentLineItemValue",
+		"contents": "nlapiSetCurrentLineItemValue(${1:sublist}, ${2:fldnam}, ${3:value}, ${4:firefieldchanged}, ${5:synchronous})$0"
+	}, {
+		"trigger": "nlapiSetCurrentLineItemValues",
+		"contents": "nlapiSetCurrentLineItemValues(${1:sublist}, ${2:fldnam}, ${3:['value1', 'value2', 'value3']}, ${4:firefieldchanged}, ${5:synchronous})$0"
+	},{
+		"trigger": "nlapiSetLineItemValue",
+		"contents": "nlapiSetLineItemValue(${1:sublist}, ${2:fldnam}, ${3:linenum}, ${4:value})$0"
+	},{
+		"trigger": "nlapiSetMatrixValue",
+		"contents": "nlapiSetMatrixValue(${1:sublist}, ${2:fldnam}, ${3:column}, ${4:value}, ${5:firefieldchanged}, ${6:synchronous})$0"
+	}]
+}

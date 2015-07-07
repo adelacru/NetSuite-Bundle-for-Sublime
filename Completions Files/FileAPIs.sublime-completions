@@ -1,0 +1,17 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiCreateFile",
+		"contents": "nlapiCreateFile(${1:name}, ${2:fileType}, ${3:contents})$0"
+	},{
+		"trigger": "nlapiDeleteFile",
+		"contents": "nlapiDeleteFile(${1:id})$0"
+	},{
+		"trigger": "nlapiLoadFile",
+		"contents": "nlapiLoadFile(${1:id})$0"
+	},{
+		"trigger": "nlapiSubmitFile",
+		"contents": "nlapiSubmitFile(${1:id})$0"
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiCreateCurrentLineItemSubrecord",
+		"contents": "nlapiCreateCurrentLineItemSubrecord(${1:sublist}, ${2:fldname})$0"
+	},{
+		"trigger": "nlapiCreateSubrecord",
+		"contents": "nlapiCreateSubrecord(${1:fldname})$0"
+	},{
+		"trigger": "nlapiEditCurrentLineItemSubrecord",
+		"contents": "nlapiEditCurrentLineItemSubrecord(${1:sublist}, ${2:fldname})$0"
+	},{
+		"trigger": "nlapiEditSubrecord",
+		"contents": "nlapiEditSubrecord(${1:fldname})$0"
+	},{
+		"trigger": "nlapiRemoveCurrentLineItemSubrecord",
+		"contents": "nlapiRemoveCurrentLineItemSubrecord(${1:sublist}, ${2:fldname})$0"
+	},{
+		"trigger": "nlapiRemoveSubrecord",
+		"contents": "nlapiRemoveSubrecord(${1:fldname})$0"
+	},{
+		"trigger": "nlapiViewCurrentLineItemSubrecord",
+		"contents": "nlapiViewCurrentLineItemSubrecord(${1:sublist}, ${2:fldname})$0"
+	},{
+		"trigger": "nlapiViewLineItemSubrecord",
+		"contents": "nlapiViewLineItemSubrecord(${1:sublist}, ${2:fldname}, ${3:linenum})$0"
+	},{
+		"trigger": "nlapiViewSubrecord",
+		"contents": "nlapiViewSubrecord(${1:fldname})$0"
+	}]
+}

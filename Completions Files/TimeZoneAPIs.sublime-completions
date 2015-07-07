@@ -1,0 +1,23 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiGetCurrentLineItemDateTimeValue",
+		"contents": "nlapiGetCurrentLineItemDateTimeValue(${1:sublist}, ${2:fldnam}, ${3:timeZone})$0"
+	},{
+		"trigger": "nlapiGetDateTimeValue",
+		"contents": "nlapiGetDateTimeValue(${1:fldnam}, ${2:timeZone})$0"
+	}, {
+		"trigger": "nlapiGetLineItemDateTimeValue",
+		"contents": "nlapiGetLineItemDateTimeValue(${1:sublist}, ${2:fldnam}, ${3:lineNum}, ${4:timeZone})$0"
+	}, {
+		"trigger": "nlapiSetCurrentLineItemDateTimeValue",
+		"contents": "nlapiSetCurrentLineItemDateTimeValue(${1:sublist}, ${2:fldnam}, ${3:dateTime}, ${4:timeZone})$0"
+	},{
+		"trigger": "nlapiSetDateTimeValue",
+		"contents": "nlapiSetDateTimeValue(${1:fldnam}, ${2:dateTime}, ${3:timeZone})$0"
+	}, {
+		"trigger": "nlapiSetLineItemDateTimeValue",
+		"contents": "nlapiSetLineItemDateTimeValue(${1:sublist}, ${2:fldnam}, ${3:lineNum}, ${4:dateTime}, ${5:timeZone})$0"
+	}]
+}

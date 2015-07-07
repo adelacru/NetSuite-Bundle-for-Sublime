@@ -1,0 +1,17 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiOutboundSSO",
+		"contents": "nlapiOutboundSSO(${1:id})$0"
+	},{
+		"trigger": "nlapiSendCampaignEmail",
+		"contents": "nlapiSendCampaignEmail(${1:campaigneventid}, ${2:recipientid})$0"
+	},{
+		"trigger": "nlapiSendEmail",
+		"contents": "nlapiSendEmail(${1:author}, ${2:recipient}, ${3:subject}, ${4:body}, ${5:cc}, ${6:bcc}, ${7:records}, ${8:attachments}, ${9:notifySenderOnBounce}, ${10:internalOnly}, ${11:replyTo})$0"
+	},{
+		"trigger": "nlapiSendFax",
+		"contents": "nlapiSendFax(${1:author}, ${2:recipient}, ${3:subject}, ${4:body}, ${5:records}, ${6:attachments})$0"
+	}]
+}

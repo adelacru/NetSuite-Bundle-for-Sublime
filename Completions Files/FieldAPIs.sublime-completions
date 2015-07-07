@@ -1,0 +1,53 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiDisableField",
+		"contents": "nlapiDisableField(${1:fldnam }, ${2:val})$0"
+	},{
+		"trigger": "nlapiGetField",
+		"contents": "nlapiGetField(${1:fldnam})$0"
+	},{
+		"trigger": "nlapiGetFieldText",
+		"contents": "nlapiGetFieldText(${1:fldnam})$0"
+	},{
+		"trigger": "nlapiGetFieldTexts",
+		"contents": "nlapiGetFieldTexts(${1:fldnam})$0"
+	},{
+		"trigger": "nlapiGetFieldValue",
+		"contents": "nlapiGetFieldValue(${1:fldnam})$0"
+	},{
+		"trigger": "nlapiGetFieldValues",
+		"contents": "nlapiGetFieldValues(${1:fldnam})$0"
+	},{
+		"trigger": "nlapiInsertSelectOption",
+		"contents": "nlapiInsertSelectOption(${1:fldnam}, ${2:value}, ${3:text}, ${4:selected})$0"
+	},{
+		"trigger": "nlapiLookupField\tSingle Field",
+		"contents": "nlapiLookupField(${1:type}, ${2:id}, ${3:field}, ${4:text})$0"
+	},{
+		"trigger": "nlapiLookupField\tMultiple Fields",
+		"contents": "nlapiLookupField(${1:type}, ${2:id}, [${3:field},${4:field}, ${5:field}], ${6:text})$0"
+	},{
+		"trigger": "nlapiRemoveSelectOption",
+		"contents": "nlapiRemoveSelectOption(${1:fldnam}, ${2:value})$0"
+	},{
+		"trigger": "nlapiSetFieldText",
+		"contents": "nlapiSetFieldText(${1:fldname}, ${2:txt}, ${3:firefieldchanged}, ${4:synchronous})$0"
+	},{
+		"trigger": "nlapiSetFieldTexts",
+		"contents": "nlapiSetFieldTexts(${1:fldname}, [${2:text},${3:text}], ${4:firefieldchanged}, ${5:synchronous})$0"
+	},{
+		"trigger": "nlapiSetFieldValue",
+		"contents": "nlapiSetFieldValue(${1:fldnam}, ${2:value}, ${3:firefieldchanged}, ${4:synchronous})$0"
+	},{
+		"trigger": "nlapiSetFieldValues",
+		"contents": "nlapiSetFieldValues(${1:fldname}, [${2:value},${3:value}], ${4:firefieldchanged}, ${5:synchronous})$0"
+	},{
+		"trigger": "nlapiSubmitField\tSingle Field",
+		"contents": "nlapiSubmitField(${1:type}, ${2:id}, ${3:field}, ${4:value}, ${5:doSourcing})$0"
+	},{
+		"trigger": "nlapiSubmitField\tMultiple Fields",
+		"contents": "nlapiSubmitField(${1:type}, ${2:id}, [${3:field},${4:field}, ${5:field}], [${6:value}, ${7:value}, ${8:value}], ${9:doSourcing})$0"
+	}]
+}

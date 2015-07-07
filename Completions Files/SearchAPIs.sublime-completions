@@ -1,0 +1,26 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiCreateSearch",
+		"contents": "nlapiCreateSearch(${1:type}, ${2:filters}, ${3:columns})$0"
+	},{
+		"trigger": "nlapiLoadSearch",
+		"contents": "nlapiLoadSearch(${1:type}, ${2:id})$0"
+	},{
+		"trigger": "nlapiSearchDuplicate",
+		"contents": "nlapiSearchDuplicate(${1:type}, ${2:fields}, ${3:id})$0"
+	},{
+		"trigger": "nlapiSearchGlobal",
+		"contents": "nlapiSearchGlobal(${1:keywords})$0"
+	},{
+		"trigger": "nlapiSearchRecord",
+		"contents": "nlapiSearchRecord(${1:type}, ${2:id}, ${3:filters}, ${4:columns})$0"
+	},{
+		"trigger": "nlobjSearchFilter",
+		"contents": "nlobjSearchFilter(${1:name}, ${2:join}, ${3:operator}, ${4:value1}, ${5:value2})$0"
+	},{
+		"trigger": "nlobjSearchColumn",
+		"contents": "nlobjSearchColumn(${1:name}, ${2:join}, ${3:summary})$0"
+	}]
+}

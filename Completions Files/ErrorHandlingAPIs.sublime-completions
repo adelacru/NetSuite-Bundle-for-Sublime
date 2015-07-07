@@ -1,0 +1,8 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiCreateError",
+		"contents": "nlapiCreateError(${1:code}, ${2:details}, ${3:suppressNotification})$0"
+	}]
+}

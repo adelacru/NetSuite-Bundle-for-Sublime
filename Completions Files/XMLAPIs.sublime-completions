@@ -1,0 +1,32 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiEscapeXML",
+		"contents": "nlapiEscapeXML(${1:text})$0"
+	},{
+		"trigger": "nlapiSelectNode",
+		"contents": "nlapiSelectNode(${1:node}, ${2:xpath})$0"
+	},{
+		"trigger": "nlapiSelectNodes",
+		"contents": "nlapiSelectNodes(${1:node}, ${2:xpath})$0"
+	},{
+		"trigger": "nlapiSelectValue",
+		"contents": "nlapiSelectValue(${1:node}, ${2:xpath})$0"
+	},{
+		"trigger": "nlapiSelectValues",
+		"contents": "nlapiSelectValues(${1:node}, ${2:xpath})$0"
+	},{
+		"trigger": "nlapiStringToXML",
+		"contents": "nlapiStringToXML(${1:text})$0"
+	},{
+		"trigger": "nlapiValidateXML",
+		"contents": "nlapiValidateXML(${1:xmlDocument}, ${2:schemaDocument}, ${3:schemaFolderId})$0"
+	},{
+		"trigger": "nlapiXMLToString",
+		"contents": "nlapiXMLToString(${1:xml})$0"
+	},{
+		"trigger": "nlapiXMLToPDF",
+		"contents": "nlapiXMLToPDF(${1:xmlstring})$0"
+	}]
+}

@@ -1,0 +1,8 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiGetJobManager",
+		"contents": "nlapiGetJobManager(${1:jobType})$0"
+	}]
+}

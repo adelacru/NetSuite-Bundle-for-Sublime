@@ -1,0 +1,14 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiInitiateWorkflow",
+		"contents": "nlapiInitiateWorkflow(${1:type}, ${2:id}, ${3:workflowid})$0"
+	},{
+		"trigger": "nlapiInitiateWorkflowAsync",
+		"contents": "nlapiInitiateWorkflowAsync(${1:type}, ${2:id}, ${3:workflowid}, ${4:initialValuesObj})$0"
+	},{
+		"trigger": "nlapiTriggerWorkflow",
+		"contents": "nlapiTriggerWorkflow(${1:type}, ${2:id}, ${3:workflowid}, ${4:actionid})$0"
+	}]
+}

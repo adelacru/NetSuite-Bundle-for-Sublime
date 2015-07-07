@@ -1,0 +1,17 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiAddDays",
+		"contents": "nlapiAddDays(${1:dateObj}, ${2:days})$0"
+	},{
+		"trigger": "nlapiAddMonths",
+		"contents": "nlapiAddMonths(${1:dateObj}, ${2:months})$0"
+	},{
+		"trigger": "nlapiDateToString",
+		"contents": "nlapiDateToString(${1:dateObj}, ${2:dateFormat})$0"
+	},{
+		"trigger": "nlapiStringToDate",
+		"contents": "nlapiStringToDate(${1:string}, ${2:dateFormat})$0"
+	}]
+}

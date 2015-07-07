@@ -1,0 +1,20 @@
+{
+	"scope": "source.js",
+
+	"completions": [{
+		"trigger": "nlapiRequestURL\tClient Script",
+		"contents": "nlapiRequestURL(${1:url}, ${2:postdata}, ${3:headers}, ${4:callback}, ${5:httpMethod})$0"
+	},{
+		"trigger": "nlapiRequestURL\tServer Script",
+		"contents": "nlapiRequestURL(${1:url}, ${2:postdata}, ${3:headers}, ${4:httpMethod})$0"
+	},{
+		"trigger": "nlapiRequestURLWithCredentials",
+		"contents": "nlapiRequestURLWithCredentials(${1:credentials}, ${2:url}, ${3:postdata}, ${4:headers}, ${5:httpMethod})$0"
+	},{
+		"trigger": "nlapiResolveURL",
+		"contents": "nlapiResolveURL(${1:resourceType}, ${2:identifier}, ${3:id}, ${4:displayMode})$0"
+	},{
+		"trigger": "nlapiSetRedirectURL",
+		"contents": "nlapiSetRedirectURL(${1:resourceType}, ${2:identifier}, ${3:id}, ${4:editMode}, ${5:parameters})$0"
+	}]
+}
