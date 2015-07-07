@@ -17,7 +17,7 @@ Instructions
 Features
 ---------
 
-##### Completion:
+##### Code Completion:
 - All APIS that start with nlapi
 
 ##### NetSuite Menu (Ctrl + Alt + n):
@@ -27,7 +27,7 @@ Features
 Ongoing Enhancements
 ---------
 
-##### NetSuite Menu (Ctrl + Alt + n:
+##### NetSuite Menu (Ctrl + Alt + n):
 - Internal IDs of standard buttons
 - Internal IDs of sublists
 - Additional templates
