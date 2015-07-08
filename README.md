@@ -13,7 +13,7 @@ Features
 
 - Code Completion will work with JavaScript files
 - "Ctrl + Alt + n" opens the NetSuite menu
-- 
+
 ##### Code Completion:
 - All APIS that start with nlapi
 
