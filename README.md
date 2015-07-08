@@ -8,15 +8,12 @@ Installation
 2. Create a new folder: NetSuite Bundle for Sublime
 3. Copy the contents of this repository to the new folder
 
-Instructions
--------------
-
-- Code Completion will work with JavaScript files
-- "Ctrl + Alt + n" opens the NetSuite menu
-
 Features
 ---------
 
+- Code Completion will work with JavaScript files
+- "Ctrl + Alt + n" opens the NetSuite menu
+- 
 ##### Code Completion:
 - All APIS that start with nlapi
 
