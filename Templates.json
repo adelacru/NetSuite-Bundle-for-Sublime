@@ -5,11 +5,11 @@
 	}, {
 		"name": "nlapiSearchRecord",
 		"description": "Basic script search using the nlapiSearchRecord API",
-		"file": "Search.sublime-snippet"
+		"file": "Search.js"
 	}, {
 		"name": "nlapiLookupField",
 		"description": "Retrive multiple field values using the nlapiLookupField API",
-		"file": "LookupFields.sublime-snippet"
+		"file": "LookupFields.js"
 	}
 ]
 

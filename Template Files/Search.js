@@ -1,5 +1,3 @@
-<snippet>
-	<content><![CDATA[
 var filters = new Array();
 filters[0] = new nlobjSearchFilter('${1:name}', null, '${3:operator}', ${4:value1}, ${5:value2});
 var columns = new Array();
@@ -11,6 +9,3 @@ if(results) {
 		var ${6:name} = results[i].getValue('${6:name}');$0
 	}
 }
-]]></content>
-	<scope>none</scope> 
-</snippet>
