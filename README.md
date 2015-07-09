@@ -1,4 +1,4 @@
-NetSuite Bundle for Sublime
+NetSuite Bundle for Sublime 3
 ===================
 
 Installation
