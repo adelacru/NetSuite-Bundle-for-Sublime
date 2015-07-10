@@ -1,4 +1,9 @@
+<snippet>
+	<content><![CDATA[
 var fields = ['${1:field1}', '${2:field2}']
 var columns = nlapiLookupField('${3:type}', '${4:id}', fields);
 var ${1:field1} = columns.${1:field1};
 var ${2:field2} = columns.${2:field2};
+]]></content>
+	<scope>none</scope> 
+</snippet>

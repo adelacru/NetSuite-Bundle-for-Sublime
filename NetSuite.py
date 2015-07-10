@@ -6,13 +6,13 @@ def plugin_loaded():
     # Load Record Types
     global recordTypeOptions, recordTypes
     recordTypeOptions = []
-    recordTypesJsonString = sublime.load_resource('Packages/NetSuite Bundle for Sublime/RecordTypes.json')
+    recordTypesJsonString = sublime.load_resource("/".join(["Packages", __package__, "RecordTypes.json"]))
     recordTypes = json.loads(recordTypesJsonString)
     recordTypeOptions = [[record['name']] for record in recordTypes];
 
     # Load Template Library
     global templates, templateOptions
-    templateJsonString = sublime.load_resource('Packages/NetSuite Bundle for Sublime/Templates.json')
+    templateJsonString = sublime.load_resource("/".join(["Packages", __package__, "Templates.json"]))
     templates = json.loads(templateJsonString)
     templateOptions = []
     for record in templates:
@@ -29,7 +29,6 @@ class NetsuiteCommand(sublime_plugin.TextCommand):
 
     def showSubmenu(self, id):
         # Record Types
-        print(recordTypeOptions)
         if id==0:
             self.view.window().show_quick_panel(recordTypeOptions, self.getRecordTypeId)
         # Templates
@@ -51,6 +50,5 @@ class NetsuiteCommand(sublime_plugin.TextCommand):
             self.view.window().show_quick_panel(mainMenu, self.showSubmenu)
         # A Template was selected
         if id>0:
-            snippet = sublime.load_resource('Packages/NetSuite Bundle for Sublime/Template Files/'+templates[id]['file'])
-            snippet = snippet.replace('\r', '')
-            self.view.run_command("insert_snippet", {"contents": snippet })
+            #insert snippet
+            self.view.run_command("insert_snippet", {"name": "/".join(["Packages", __package__, "Template Files", templates[id]['file']]) })
