@@ -1,12 +1,13 @@
-NetSuite Bundle for Sublime
+NetSuite Bundle for Sublime 3
 ===================
 
 Installation
 -------------
 
-1. Go to Preferences > Browse Packages
-2. Create a new folder: NetSuite Bundle for Sublime
-3. Copy the contents of this repository to the new folder
+1. If you don't have the [Package Control](https://packagecontrol.io/installation), please install it.
+2. Bring up the Command Palette (Ctrl+Shift+P under Windows and Linux; ⌘+⇧+P under OS X).
+3. Type “Install” and select “Package Control: Install Package”.
+4. Select "NetSuite Bundle" from list.
 
 Features
 ---------
